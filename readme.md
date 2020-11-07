@@ -36,21 +36,26 @@ Ver sus pros y contras
 - https://www.coursera.org/learn/discrete-optimization
 - https://www.gestiondeoperaciones.net
 
+# Problema Np-Completo
+Cumple
+- Es muy rápido de checkear si la solucion propuesta es correcat
+- Si sabes resolver un problema NP-Completo, sabesresolverlos todos
+- Existe el mito de que se resuelven con coste exponencial
 
 # Ejemplos
 
-
+- Problema de la mochila
 - Optimización de rutas
   - Pickup & delivery
-    - Datos: Puntos en el mapa de regida, puntos de entrega, tiempo max de mercancia en camion
+    - Datos: Puntos en el mapa de regida, puntos de entrega, tiempo max de mercancía en camión
   - Dijkstra shortest path (Google Map calcular ruta)
   - Problema del viajante de comercio
- 
 - Relajación Lagrangeana (empresa eléctrica, arrancar o parar una central térmica)
-- Constraint programming (Turnos de Madrid)
--                        (problema de asignacion de turnos)
--                        (Procesos de aprovisonamiento, inventario...)
--                        (Cuanto envio del almacen a la tienda)
+- Constraint programming
+  - Turnos de Madrid
+  - problema de asignación de turnos
+  - Procesos de aprovisonamiento, inventario...
+  - Cuánto envío del almacén a la tienda
 
 # Pasos
 
