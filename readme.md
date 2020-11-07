@@ -1,7 +1,11 @@
 Invesitigación operativa / programación entera
 
 
-
+# Optimization paradigms segun coursera
+- Constraint Programming (**CP**)
+- Local Search (**LS**)
+- Linear Programming (**LP**)
+- Mixed Integer Programming (**MIP**)
 
 # Tecnicas y Algoritmos
 
