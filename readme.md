@@ -49,6 +49,8 @@ Cumple
 # Ejemplos
 
 - Problema de la mochila (knapsack problem)
+- Sudoku
+- Probailidad opos
 - Optimización de rutas
   - Pickup & delivery
     - Datos: Puntos en el mapa de regida, puntos de entrega, tiempo max de mercancía en camión
