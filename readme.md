@@ -29,7 +29,9 @@ Ver sus pros y contras
 - (2) Lineal significa que tanto las restricciones como la funcion objetivo son lineales
 
 # Librerias
-- [Google OR Tools](https://developers.google.com/optimization)
+- Python
+  - [Google OR Tools](https://developers.google.com/optimization)
+  - [PuLP](https://github.com/coin-or/pulp)
 - Para Constraint Programming sin dudarlo **Choco Solver**. Open Source. Java
 - Para Local Search **Optaplanner**. Open Source.
 - Para Mixed Integer Programming no hay nada open source y bueno.
