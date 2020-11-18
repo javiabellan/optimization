@@ -1,5 +1,6 @@
-Invesitigación operativa / programación entera
+Analítica prescriptiva / Invesitigación operativa / optimizacion numerica / programación entera
 
+> ### *Mediante la analítica prescriptiva se consiguen recomendaciones sobre las acciones  que se han de seguir para reducir costes o mejorar los beneficios.*
 
 # Optimization paradigms segun coursera
 - Constraint Programming (**CP**)
