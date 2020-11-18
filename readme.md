@@ -1,4 +1,4 @@
-Analítica prescriptiva / Investigación operativa / optimización numérica / programación entera
+Analítica prescriptiva / Investigación operativa / optimización combinatoria / programación entera
 
 > ### *Mediante la analítica prescriptiva se consiguen recomendaciones sobre las acciones  que se han de seguir para reducir costes o mejorar los beneficios.*
 
