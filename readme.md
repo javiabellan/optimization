@@ -1,21 +1,36 @@
-Analítica prescriptiva / Investigación operativa / optimización combinatoria / programación entera
+![](img/title.jpg)
+
+`Analítica prescriptiva` / `Investigación operativa` / `Optimización combinatoria` / `Programación entera`
 
 > ### *Mediante la analítica prescriptiva se consiguen recomendaciones sobre las acciones que se han de seguir para reducir costes o mejorar los beneficios.*
 
-# Optimization paradigms segun coursera
+# Optimization paradigms
 1. Greedy: Solución a mano
 2. Global techinques: Techniques that are guaranteed to find the optimal solution if you give the enough time.
-   - Dynamic Programming (**DP**) (backtracking and branch & bound)
+   - Dynamic Programming (**DP**) (backtracking, branch & bound)
    - Constraint Programming (**CP**)
+   - Linear Programming (**LP**)
+     - Programación lineal continua: Simplex
+     - Programación lineal entera (discreta): Simplex Lineal Entero
+   - Programación no lineal ???
    - Mixed Integer Programming (**MIP**)
-   - Linear Programming (**LP**) ??? (no se si va aquí)
 3. Local Search (**LS**): Scale very well with problems of large size (may not give you the best solution).
 4. Hybrids: Combina lo mejor de Global y Local.
 
+| Tecnicas           | Puntos Fuertes               |
+|--------------------|------------------------------|
+| ![](img/pasos.png) | ![](img/best_techniques.png) |
 
 
 
-### Constraint Programming
+# Greedy
+
+### Greedy solutions for common problems
+- **Travelling Salesman Problem**: At each step of the journey, visit the nearest unvisited city.
+- **Knapsack**: Sort the items in decreasing order of value per unit of weight (V/W), then insert them into the sack in order until there is no longer space in the sack for more.
+
+
+# Constraint Programming (CP)
 > - Discrete math
 > - Like solving puzzles
 > - Lots of logic
@@ -38,48 +53,35 @@ return success
 
 Modela tu problema lo mejor posible (contraints) para que el solver lo resuleva
 
-### Mixed Integer Programming
+
+# Linear Programming (LP)
+
+Lineal significa que tanto las restricciones como la funcion objetivo son lineales
+
+
+# Mixed Integer Programming (MIP)
 - Continuous math
 - Linear algebra
 
-### Local Search
+# Local Search
 - Intuition based, most significant coding
 - Writing efficient code really helps
 - Lost of staring at the terminal
 
-
+### **Metaheuristicas**: Siempre tiene una solución en la mano.
+- Muchas soluciones: Algoritmo genéticos
+- Una única solución y hacer pequeñas soluciones en esa solución.
+  - Tabu Search
+  - Simulated Annealing
+  
 ---
 
-# Tecnicas y Algoritmos
-
-- **Metaheuristicas**: Siempre tiene una solución en la mano.
-  - Muchas soluciones: Algoritmo genéticos
-  - Una única solución y hacer pequeñas soluciones en esa solución.
-    - Tabu Search
-    - Simulated Annealing
-- **Programación por restricciones** (1)
-- **Programación lineal** (2)
-  - Programación lineal continua
-    - Simplex (optimización global) (de caja negra)
-  - Programación lineal entera (discreta)
-    - Simplex Lineal Entero
-- **Programación no lineal**
 
 
-
-Ver sus pros y contras
-- (1) HAY QUE PROGRAMAR DE FORMA EFICIENTE LA IMPLEMETACION
-- (2) Lineal significa que tanto las restricciones como la funcion objetivo son lineales
-
-
-
-
-
-# Problema Np-Completo
-Cumple
-- Es muy rápido de checkear si la solucion propuesta es correcat
-- Si sabes resolver un problema NP-Completo, sabesresolverlos todos
-- Existe el mito de que se resuelven con coste exponencial
+> ### Un problema NP-Completo cumple
+> - Es muy rápido de checkear si la solucion propuesta es correcta.
+> - Si sabes resolver un problema NP-Completo, sabes resolverlos todos.
+> - Existe el mito de que se resuelven con coste exponencial.
 
 
 
