@@ -27,7 +27,7 @@
 
 ### Greedy solutions for common problems
 - **Travelling Salesman Problem**: At each step of the journey, visit the nearest unvisited city.
-- **Knapsack**: Sort the items in decreasing order of value per unit of weight (V/W), then insert them into the sack in order until there is no longer space in the sack for more.
+- **Knapsack**: Sort items in decreasing order of value per weight (V/W), then insert them into the sack in that order until there is no space.
 
 
 # Constraint Programming (CP)
