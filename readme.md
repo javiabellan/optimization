@@ -35,6 +35,9 @@
 > - Like solving puzzles
 > - Lots of logic
 
+
+> ### REMEMBER: The more constraints you add to your model, the faster the computation will be.
+
 Modela tu problema lo mejor posible (contraints) para que el solver lo resuleva
 
 CP is branch and pruning:
