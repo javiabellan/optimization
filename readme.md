@@ -58,6 +58,11 @@ Gobal constraints make it possible to detect infeasibilities earlier.
 
 - **AllDifferent(array_of_decision_variables)**: Indicates that all items of the list must be different.
 
+### Symmetry-breaking Constraints
+Eliminate symmetries and reduce the search space size. Example:
+- Days to record a scene in a movie
+
+
 
 # Linear Programming (LP)
 
