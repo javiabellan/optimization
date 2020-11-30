@@ -66,6 +66,11 @@ Eliminate symmetries and reduce the search space size. Example:
 - Days to record a scene in a movie
 
 
+### Subrogate constraint
+
+Combine constraints to prune more. Because in the worst case I will prune the same as if I don't add it.
+
+
 
 # Linear Programming (LP)
 
