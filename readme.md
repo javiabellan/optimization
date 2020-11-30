@@ -35,10 +35,11 @@
 > - Like solving puzzles
 > - Lots of logic
 
+Modela tu problema lo mejor posible (contraints) para que el solver lo resuleva
+
 CP is branch and pruning:
 
 Pruning: Reduce the search sapce as much as possible.
-
 
 Propagation engine:
 
@@ -51,7 +52,11 @@ for c in contraints:
 return success
 ```
 
-Modela tu problema lo mejor posible (contraints) para que el solver lo resuleva
+### Global Constraints
+
+Gobal constraints make it possible to detect infeasibilities earlier.
+
+- **AllDifferent(array_of_decision_variables)**: Indicates that all items of the list must be different.
 
 
 # Linear Programming (LP)
@@ -138,6 +143,25 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
 - https://www.gestiondeoperaciones.net
 - https://medium.com/@AlainChabrier/scheduling-with-constraint-programming-35a23839e25c
 
+
+### Competiciones
+
+- Kaggle Santa 🎅🏻
+  - [Traveling Santa Problem](https://www.kaggle.com/c/traveling-santa-problem) 2012
+  - [Helping Santa's Helpers](https://www.kaggle.com/c/helping-santas-helpers) 2014
+  - [Santa's Stolen Sleigh](https://www.kaggle.com/c/santas-stolen-sleigh) 2015
+  - [Santa Gift Matching Challenge](https://www.kaggle.com/c/santa-gift-matching) 2017
+  - [Traveling Santa 2018: Prime Paths](https://www.kaggle.com/c/traveling-santa-2018-prime-paths) 2018
+  - [Santa 2019: Revenge of the Accountants](https://www.kaggle.com/c/santa-2019-revenge-of-the-accountants) 2019
+  - [Santa's Workshop Tour 2019](https://www.kaggle.com/c/santa-workshop-tour-2019) 2019
+- Hash Code
+  - [Hash Code Kaggle Archive: Drone Delivery](https://www.kaggle.com/c/hashcode-drone-delivery): Can you help coordinate the drone delivery supply chain?
+  - [Hash Code Kaggle Archive: Photo Slideshow Optimization](https://www.kaggle.com/c/hashcode-photo-slideshow): Optimizing a photo album from Hash Code 2019
+- ROADEF: Bastante complicada.
+  - [ROADEF 2020](https://www.roadef.org/challenge/2020)
+  - [ROADEF 2018](https://www.roadef.org/challenge/2018)
+  
+  
 ### Librerias
 - Python
   - [Google OR Tools](https://developers.google.com/optimization)
