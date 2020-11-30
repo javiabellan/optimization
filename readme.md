@@ -132,6 +132,7 @@ Cumple
 # Referencias
 
 - https://www.coursera.org/learn/discrete-optimization
+- https://www.coursera.org/learn/delivery-problem
 - https://www.gestiondeoperaciones.net
 - https://medium.com/@AlainChabrier/scheduling-with-constraint-programming-35a23839e25c
 
