@@ -44,11 +44,36 @@ CP is branch and pruning:
 
 Pruning: Reduce the search sapce as much as possible.
 
-### Search engine
+### 1. Decission Variables
 
-- First Fail principle:
-  - Choose the variable with the smallest domain
-  - choose the most constraint variable
+Each decission variables have a **domain** (possible options).
+
+### 2. Constraints
+
+- **Global Constraints**: Gobal constraints make it possible to detect infeasibilities earlier.
+  - **AllDifferent**(array_of_decision_variables): Indicates that all items of the list must be different.
+- **Symmetry-breaking Constraints**: Eliminate symmetries and reduce the search space size.
+  - Example: Days to record a scene in a movie
+- **Subrogate constraint**: Combine constraints to prune more. Because in the worst case I will prune the same as if I don't add it.
+- **Dual modeling**: Se pueden poner dos modelos a la vez (las constraints de cada modelo) y unirlas por una conrtaint nueva. Ejemplo el problema de las 8 reinas
+  - El modelo A resulve el problema mediante las filas
+  - El modelo B resulve el problema mediante las columnas
+  - Añadir la contraint dual de que si una reina aparece en una fila marcar tambien la columna (y viceversa).
+
+
+### 3. Searching engine
+
+- variable/value labeling
+- value/variable labeling
+- domain splitting
+- focusing on the objective
+- symmetry breaking during search
+- randomization and restarts
+
+
+> - First Fail principle:
+>   - Choose the variable with the smallest domain
+>   - choose the most constraint variable
 
 Propagation engine
 
@@ -60,30 +85,6 @@ for c in contraints:
         return failure
 return success
 ```
-
-### Global Constraints
-
-Gobal constraints make it possible to detect infeasibilities earlier.
-
-- **AllDifferent(array_of_decision_variables)**: Indicates that all items of the list must be different.
-
-### Symmetry-breaking Constraints
-Eliminate symmetries and reduce the search space size. Example:
-- Days to record a scene in a movie
-
-
-### Subrogate constraint
-
-Combine constraints to prune more. Because in the worst case I will prune the same as if I don't add it.
-
-
-### Dual modeling
-
-Se pueden poner dos modelos a la vez (las constraints de cada modelo) y unirlas por una conrtaint nueva. Ejemplo el problema de las 8 reinas
-- El modelo A resulve el problema mediante las filas
-- El modelo B resulve el problema mediante las columnas
-- Añadir la contraint dual de que si una reina aparece en una fila marcar tambien la columna (y viceversa).
-
 
 
 # Linear Programming (LP)
