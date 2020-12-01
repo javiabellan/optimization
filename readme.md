@@ -71,6 +71,14 @@ Eliminate symmetries and reduce the search space size. Example:
 Combine constraints to prune more. Because in the worst case I will prune the same as if I don't add it.
 
 
+### Dual modeling
+
+Se pueden poner dos modelos a la vez (las constraints de cada modelo) y unirlas por una conrtaint nueva. Ejemplo el problema de las 8 reinas
+- El modelo A resulve el problema mediante las filas
+- El modelo B resulve el problema mediante las columnas
+- Añadir la contraint dual de que si una reina aparece en una fila marcar tambien la columna (y viceversa).
+
+
 
 # Linear Programming (LP)
 
