@@ -44,7 +44,13 @@ CP is branch and pruning:
 
 Pruning: Reduce the search sapce as much as possible.
 
-Propagation engine:
+### Search engine
+
+- First Fail principle:
+  - Choose the variable with the smallest domain
+  - choose the most constraint variable
+
+Propagation engine
 
 ```python
 for c in contraints:
