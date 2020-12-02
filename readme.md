@@ -129,12 +129,18 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
 
 
 ### Feasibily Problems
-- Sudoku
-- Graph Coloring
-- [N queens](https://developers.google.com/optimization/cp/queens)
-- [Cryptarithmetic](https://developers.google.com/optimization/cp/cryptarithmetic)
-- [Employee Scheduling](https://developers.google.com/optimization/scheduling/employee_scheduling)
-- [The Job Shop Problem](https://developers.google.com/optimization/scheduling/job_shop)
+
+> **DP**=Dynamic Programming, **CP**=Constraint Programming, **MIP**=Mixed Integer Programming
+
+| Problem                                               | My solution | OR Tools Doc                                                |
+|-------------------------------------------------------|:-----------:|:-----------------------------------------------------------:|
+| [Cryptarithmetic](problems/Cryptarithmetic)           | CP          | [doc](https://developers.google.com/optimization/cp/cryptarithmetic) |
+| [N queens](problems/N%20Queens)                       | CP          | [doc](https://developers.google.com/optimization/cp/queens) |
+| [Sudoku](problems/Sudoku)                             | DP, CP      |                                                             |
+| [Graph Coloring](problems/Graph%20Coloring)           | CP          |                                                             |
+| [Employee Scheduling](problems/Employee%20Scheduling) | CP          | [doc](https://developers.google.com/optimization/scheduling/employee_scheduling) |
+| [The Job Shop](problems/Job%20Shop)                   | CP          | [doc](https://developers.google.com/optimization/scheduling/job_shop) |
+
 
 ### Optimization Problems
 - Knapsack (Problema de la mochila)
