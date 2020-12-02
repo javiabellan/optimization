@@ -130,6 +130,7 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
 
 ### Feasibily Problems
 - Sudoku
+- Graph Coloring
 - [N queens](https://developers.google.com/optimization/cp/queens)
 - [Cryptarithmetic](https://developers.google.com/optimization/cp/cryptarithmetic)
 - [Employee Scheduling](https://developers.google.com/optimization/scheduling/employee_scheduling)
