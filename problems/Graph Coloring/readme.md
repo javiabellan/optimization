@@ -24,7 +24,7 @@ Color a map so that no two adjacent territories recieve the same color. The maxi
 - Proven by Kenneth Appel and Wolfgang Haken
 - First major theroem proven with a computer
 
-<p align="center"><img src="img/map.png" width="75%"></p>
+<p align="center"><img src="img/map.png" width=50%"></p>
 
 
 ## Resoruces
