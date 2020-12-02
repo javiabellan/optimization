@@ -1,4 +1,5 @@
-# Graph Coloring
+<h1 align="center">Graph Coloring</h1>
+
 
 ## Description
 
