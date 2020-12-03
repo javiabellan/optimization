@@ -175,7 +175,7 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
 
 
 
-# Referencias
+## References
 
 - https://www.coursera.org/learn/discrete-optimization
 - https://www.coursera.org/learn/delivery-problem
@@ -183,7 +183,7 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
 - https://medium.com/@AlainChabrier/scheduling-with-constraint-programming-35a23839e25c
 
 
-### Competiciones
+## Competitions
 
 - Kaggle Santa 🎅🏻
   - [Traveling Santa Problem](https://www.kaggle.com/c/traveling-santa-problem) 2012
@@ -202,11 +202,68 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
   - [ROADEF 2018](https://www.roadef.org/challenge/2018)
   
   
-### Librerias
-- Python
-  - [Google OR Tools](https://developers.google.com/optimization)
-  - [PuLP](https://github.com/coin-or/pulp)
-- Para Constraint Programming sin dudarlo **Choco Solver**. Open Source. Java
-- Para Local Search **Optaplanner**. Open Source.
-- Para Mixed Integer Programming no hay nada open source y bueno.
-  - Pero CPLEX, de IBM, tiene una versión community limitada por tamaño de problema.
+## Libraries
+  
+#### Constraint Programming Solvers
+
+> #### Nota de Javier Lafuente
+> Para Constraint Programming sin dudarlo **Choco Solver**.
+
+| Library            | Languaje                         | Price                      |
+|--------------------|:--------------------------------:|----------------------------|
+| OR-Tools (Google)  | C++ (APIs: Java, Python, & .NET) | Open Source                |
+| CHOCO              | Java                             | Open Source                |
+| JACOP              | Java                             | Open Source                |
+| Gecode             | C++                              | Free                       |
+| ILog               | Binary                           | Free with academic license |
+| MiniZinc / G12     | Binary                           | Free for students          |
+
+#### Mixed Integer Programming Solvers
+
+> #### Nota de Javier Lafuente
+> Para Mixed Integer Programming no hay nada open source y bueno. Pero CPLEX, de IBM, tiene una versión community limitada por tamaño de problema.
+
+| Library            | Languaje  | Price                      |
+|--------------------|:---------:|----------------------------|
+| GLPK               | C         | Open Source                |
+| LPSolve            | C         | Open Source                |
+| BCP                | C++       | Open Source                |
+| CBC                | C++       | Open Source                |
+| CPLEX (IBM)        | Binary    | Free with academic license |
+| Gurobi             | Binary    | Free with academic license |
+| SCIP               | Binary    | Free for academic use      |
+
+#### Linear Programming Solvers
+
+> #### Revisar [PuLP](https://github.com/coin-or/pulp)
+
+| Library            | Languaje  | Price                      |
+|--------------------|:---------:|----------------------------|
+| CLP                | C++       | Open Source                |
+| SimplexSolver      | Java      | Open Source                |
+
+#### Local Search Solvers
+
+> #### Nota de Javier Lafuente
+> Para Local Search **Optaplanner**.
+
+| Library            | Languaje  | Price                      |
+|--------------------|:---------:|----------------------------|
+| OptaPlanner        | Java      | Open Source                |
+| Local Solver       | Binary    | Free with academic license |
+
+#### SAT Solvers
+
+| Library            | Languaje  | Price                      |
+|--------------------|:---------:|----------------------------|
+| cryptominisat      | C++       | Open Source                |
+| Glucose            | C         | Open Source                |
+| Lingeling          | C         | Open Source                |
+| UBCSAT             | C         | Open Source                |
+| MiniSat            | Binary    | Free                       |
+
+#### Hybrid Solvers
+
+| Library            | Languaje  | Price                      |
+|--------------------|:---------:|----------------------------|
+| SCIP               | Binary    | Free for academic use      |
