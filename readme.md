@@ -186,9 +186,9 @@ Lineal significa que tanto las restricciones como la funcion objetivo son lineal
 ## Competitions
 
 - Kaggle Santa 🎅🏻
-  - [Traveling Santa Problem](https://www.kaggle.com/c/traveling-santa-problem) 2012
-  - [Helping Santa's Helpers](https://www.kaggle.com/c/helping-santas-helpers) 2014
-  - [Santa's Stolen Sleigh](https://www.kaggle.com/c/santas-stolen-sleigh) 2015
+  - [Traveling Santa Problem](https://www.kaggle.com/c/traveling-santa-problem) 2012 (Traveling Santa Problem)
+  - [Helping Santa's Helpers](https://www.kaggle.com/c/helping-santas-helpers) 2014 (Job Scheduling problem)
+  - [Santa's Stolen Sleigh](https://www.kaggle.com/c/santas-stolen-sleigh) 2015 (Routing)
   - [Santa's Uncertain Bags](https://www.kaggle.com/c/santas-uncertain-bags) 2016
   - [Santa Gift Matching Challenge](https://www.kaggle.com/c/santa-gift-matching) 2017
   - [Traveling Santa 2018: Prime Paths](https://www.kaggle.com/c/traveling-santa-2018-prime-paths) 2018
