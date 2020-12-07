@@ -17,6 +17,20 @@ The number of optimal colors (minimun colors needed) is the number of nodes of t
 
 
 
+
+# Local Search Approach
+
+### Combined objective function
+
+- **Feasibility objective func**: Reduce the number of bad edges (edges with nodes of the same color).
+- **Optimization objective func**: Augment the same color -> sum(square(number_nodes_same_color))
+
+
+Minimize: Feasibility & Optimization
+
+
+
+
 ## Special Case: Map coloring (4 color theorem)
 
 Color a map so that no two adjacent territories recieve the same color. The maximun colors needed are 4 because of the [4 Color Theorem](https://en.wikipedia.org/wiki/Four_color_theorem):
