@@ -5,7 +5,10 @@
 > ### *Mediante la analítica prescriptiva se consiguen recomendaciones sobre las acciones que se han de seguir para reducir costes o mejorar los beneficios.*
 
 # Optimization paradigms
-1. Greedy: Solución a mano
+
+1. **Greedy**: Solución a mano
+   - **Travelling Salesman Problem**: At each step of the journey, visit the nearest unvisited city.
+   - **Knapsack**: Sort items in decreasing order of value per weight (V/W), then insert them into the sack in that order until there is no space.
 2. Global techinques: Techniques that are guaranteed to find the optimal solution if you give the enough time.
    - Dynamic Programming (**DP**) (backtracking, branch & bound)
    - Constraint Programming (**CP**)
@@ -13,13 +16,16 @@
      - Programación lineal continua: Simplex
      - Programación lineal entera (discreta): Simplex Lineal Entero
    - Mixed Integer Programming (**MIP**)
+     - Continuous math, Linear algebra,...
 3. Local Search (**LS**): Scale very well with problems of large size (may not give you the best solution).
-4. Hybrids: Combina lo mejor de Global y Local.
+   - Tabu Search: Past moves or solutions are prohibited (tabu)
+   - Simulated Annealing: Random at the beggining, deterministic at the end.
+4. Hybrids: best of Global and Local.
+
 
 | Tecnicas           | Puntos Fuertes               |
 |--------------------|------------------------------|
 | ![](img/pasos.png) | ![](img/best_techniques.png) |
-
 
 
 
@@ -30,18 +36,8 @@
 - LP, MIP: What is the relaxation? how good is it?
 
 
-# Greedy
-
-### Greedy solutions for common problems
-- **Travelling Salesman Problem**: At each step of the journey, visit the nearest unvisited city.
-- **Knapsack**: Sort items in decreasing order of value per weight (V/W), then insert them into the sack in that order until there is no space.
 
 
-
-
-# Mixed Integer Programming (MIP)
-- Continuous math
-- Linear algebra
 
 ---
 
@@ -75,13 +71,21 @@
 | [The Job Shop](problems/Job%20Shop)                   | CP          | [doc](https://developers.google.com/optimization/scheduling/job_shop) |
 
 
+### 📍 Vehicle Routing Problems
+  
+| Routing problem                      | Description                                                                 | OR-Tools                                                                    |
+|--------------------------------------|-----------------------------------------------------------------------------|:---------------------------------------------------------------------------:|
+| **Traveling Salesman Problem (TSP)** | Visit all locations once and come back to the starting location.            | [link](https://developers.google.com/optimization/routing/tsp)              |
+| **Vehicle Routing Problem (VRP)**    | A generalisation of the TSP with multiple vehicles.                         | [link](https://developers.google.com/optimization/routing/vrp)              |
+| **VRP with capacity constraints**    | Vehicles have maximum capacities for the items they can carry.              | [link](https://developers.google.com/optimization/routing/cvrp)             |
+| **VRP with Pickups and Deliveries**  | Each vehicle picks up items at some locations and drops them off at others. | [link](https://developers.google.com/optimization/routing/pickup_delivery)  |
+| **VRP with time windows**            | Vehicles must visit the locations in specified time intervals.              | [link](https://developers.google.com/optimization/routing/vrptw)            |
+| **VRP with resource constraints**    | Load and unload vehicles at the depot (the starting point).                 | [link](https://developers.google.com/optimization/routing/cvrptw_resources) |
+| **VRP with dropped visits**          | When you must pay a penalty for unvisited locations.                        | [link](https://developers.google.com/optimization/routing/penalties)        |
+| **Dijkstra shortest path**           | Find the shortest path between 2 locations (ej. Google Map finding route)   |                                                                             |
+  
 ### Optimization Problems
 - Knapsack (Problema de la mochila)
-- Optimización de rutas
-  - Pickup & delivery
-    - Datos: Puntos en el mapa de regida, puntos de entrega, tiempo max de mercancía en camión
-  - Dijkstra shortest path (Google Map calcular ruta)
-  - Problema del viajante de comercio
 - Relajación Lagrangeana (empresa eléctrica, arrancar o parar una central térmica)
 - Constraint programming
   - Turnos de Madrid
