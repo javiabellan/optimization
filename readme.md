@@ -22,6 +22,14 @@
 
 
 
+
+### Visualize everithing
+
+- CP: How much it prunes?
+- LS: What are the sequence of solutions? How fast it goes down?
+- LP, MIP: What is the relaxation? how good is it?
+
+
 # Greedy
 
 ### Greedy solutions for common problems
