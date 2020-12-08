@@ -1,7 +1,6 @@
 <h1 align="center">Traveling Salesman Problem</h1>
 
 
-
 # Tips
 
 - FAST neighborhood computation

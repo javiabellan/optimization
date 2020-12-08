@@ -12,7 +12,6 @@
    - Linear Programming (**LP**)
      - Programación lineal continua: Simplex
      - Programación lineal entera (discreta): Simplex Lineal Entero
-   - Programación no lineal ???
    - Mixed Integer Programming (**MIP**)
 3. Local Search (**LS**): Scale very well with problems of large size (may not give you the best solution).
 4. Hybrids: Combina lo mejor de Global y Local.
