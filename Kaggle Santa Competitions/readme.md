@@ -13,7 +13,13 @@
 
 
 
+## Traveling Santa Problem (2012)
 
+Solutions (The lower the better):
+
+- **7198297.1**: Using the Nearest Neighbor Greedy approach
 
 
 ## Traveling Santa: Prime Paths
+
+**Submission is scored on the Euclidean distance of your submitted path, subject to the constraint that every 10th step is 10% more lengthy unless coming from a prime CityId.**
