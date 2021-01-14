@@ -114,7 +114,8 @@
 
 ## References
 
-- https://www.coursera.org/learn/discrete-optimization
+- COURSE: https://www.coursera.org/learn/discrete-optimization
+- BOOK: [Competitive Programming 4](https://cpbook.net/) by Steven Halim, Felix Halim
 - https://www.coursera.org/learn/delivery-problem
 - https://www.gestiondeoperaciones.net
 - https://medium.com/@AlainChabrier/scheduling-with-constraint-programming-35a23839e25c
