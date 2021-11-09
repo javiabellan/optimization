@@ -23,6 +23,9 @@
 4. Hybrids: best of Global and Local.
 
 
+> ### Deep learing
+> - **Implicit MLE**: Backpropagating Through Discrete Exponential Family Distributions [paper](https://arxiv.org/pdf/2106.01798.pdf), [repo](https://github.com/uclnlp/torch-imle)
+
 | Tecnicas           | Puntos Fuertes               |
 |--------------------|------------------------------|
 | ![](img/pasos.png) | ![](img/best_techniques.png) |
