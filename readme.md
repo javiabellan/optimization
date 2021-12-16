@@ -122,19 +122,25 @@
 - https://www.coursera.org/learn/delivery-problem
 - https://www.gestiondeoperaciones.net
 - https://medium.com/@AlainChabrier/scheduling-with-constraint-programming-35a23839e25c
+- [Twit de @JFPuget](https://twitter.com/JFPuget/status/1471420224721362948) recommendos for learing MILP:
+  - Read the [Model Building in Mathematical Programming](https://www.amazon.com/Model-Building-Mathematical-Programming-Williams/dp/1118443330) book
+  - Read the [tesis](https://depositonce.tu-berlin.de/handle/11303/1931) of [@AchterbergT](https://twitter.com/AchterbergT) If you want to know about how MILP are solved
+- [cmu-comp-or](https://github.com/rkimura47/cmu-comp-or): A series of tutorials for conducting computational experiments with optimization solvers by [@rkimura47](https://twitter.com/rkimura47)
 
+## 🎅🏻 Kaggle Santa Competitions
 
-## Competitions
+| Year | Competition                                                                                  | Description                       |
+|------|----------------------------------------------------------------------------------------------|-----------------------------------|
+| 2012 | [Traveling Santa Problem](https://www.kaggle.com/c/traveling-santa-problem)                  | Traveling salesman                |
+| 2014 | [Helping Santa's Helpers](https://www.kaggle.com/c/helping-santas-helpers)                   | Job Scheduling                    |
+| 2015 | [Santa's Stolen Sleigh](https://www.kaggle.com/c/santas-stolen-sleigh)                       | Routing                           |
+| 2016 | [Santa's Uncertain Bags](https://www.kaggle.com/c/santas-uncertain-bags)                     |                                   |
+| 2017 | [Santa Gift Matching Challenge](https://www.kaggle.com/c/santa-gift-matching)                | Maximize child-gift happiness     |
+| 2018 | [Traveling Santa 2](https://www.kaggle.com/c/traveling-santa-2018-prime-paths)               | Traveling salesman on prime paths |
+| 2019 | [Revenge of the Accountants](https://www.kaggle.com/c/santa-2019-revenge-of-the-accountants) | Minimizing his workshop costs     |
+| 2019 | [Santa's Workshop Tour 2019](https://www.kaggle.com/c/santa-workshop-tour-2019)              |                                   |
+| 2021 | [The Merry Movie Montage](https://www.kaggle.com/c/santa-2021)                               | Optimize television programming   |
 
-- Kaggle Santa 🎅🏻
-  - [Traveling Santa Problem](https://www.kaggle.com/c/traveling-santa-problem) 2012 (Traveling Santa Problem)
-  - [Helping Santa's Helpers](https://www.kaggle.com/c/helping-santas-helpers) 2014 (Job Scheduling problem)
-  - [Santa's Stolen Sleigh](https://www.kaggle.com/c/santas-stolen-sleigh) 2015 (Routing)
-  - [Santa's Uncertain Bags](https://www.kaggle.com/c/santas-uncertain-bags) 2016
-  - [Santa Gift Matching Challenge](https://www.kaggle.com/c/santa-gift-matching) 2017
-  - [Traveling Santa 2018: Prime Paths](https://www.kaggle.com/c/traveling-santa-2018-prime-paths) 2018
-  - [Santa 2019: Revenge of the Accountants](https://www.kaggle.com/c/santa-2019-revenge-of-the-accountants) 2019
-  - [Santa's Workshop Tour 2019](https://www.kaggle.com/c/santa-workshop-tour-2019) 2019
 - Hash Code
   - [Hash Code Kaggle Archive: Drone Delivery](https://www.kaggle.com/c/hashcode-drone-delivery): Can you help coordinate the drone delivery supply chain?
   - [Hash Code Kaggle Archive: Photo Slideshow Optimization](https://www.kaggle.com/c/hashcode-photo-slideshow): Optimizing a photo album from Hash Code 2019
