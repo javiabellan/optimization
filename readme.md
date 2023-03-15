@@ -214,3 +214,5 @@
 | Library            | Languaje  | Price                      |
 |--------------------|:---------:|----------------------------|
 | SCIP               | Binary    | Free for academic use      |
+
+https://kristerw.github.io/2022/11/01/verifying-optimizations/
